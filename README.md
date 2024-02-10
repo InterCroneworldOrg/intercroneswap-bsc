@@ -13,7 +13,7 @@ An open source interface for ISwap -- a protocol for decentralized exchange of B
 - YT: [youtube.com/c/InterCroneWorld/](https://www.youtube.com/c/InterCroneWorld)
 - TG: [t.me/intercroneworld/](https://t.me/intercroneworld)
 
-> Install dependencies using **yarn**
+# Install dependencies using **yarn**
 
 ## `apps/web`
 
