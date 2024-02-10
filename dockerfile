@@ -1,9 +1,10 @@
-FROM node:16
+FROM node:16.02.2
 
 WORKDIR /app
 
 COPY . .
 
+RUN yarn
 RUN npm install
 
 RUN yarn build
