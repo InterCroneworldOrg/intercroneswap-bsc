@@ -4,28 +4,28 @@ import { Text } from '@pancakeswap/uikit'
 import { BACKEND_URL } from 'config'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import useInterval from 'hooks/useInterval'
-import React, { useContext, useEffect, useState } from 'react'
+import React, { useCallback, useContext, useEffect, useState } from 'react'
 import { isMobile } from 'react-device-detect'
 import { ThemeContext } from 'styled-components'
 import { currencyFormatter } from 'utils'
 
-export const TotalValueLocked: React.FC<any> = (...props) => {
+export const TotalValueLocked: React.FC<any> = () => {
   const theme = useContext(ThemeContext)
-  const { account, chainId } = useActiveWeb3React()
+  const { chainId } = useActiveWeb3React()
 
   const [totalValueLocked, setTotalValueLocked] = useState('')
-  const fetchData = async () => {
+  const fetchData = useCallback(async () => {
     const response = await (
       await fetch(`${BACKEND_URL}/markets/totalLocked?chainId=${chainId && ChainId.MAINNET}`)
     ).json()
     setTotalValueLocked(response.data.usdAmount)
-  }
+  }, [chainId])
   useInterval(() => {
     fetchData()
   }, 1000 * 30)
   useEffect(() => {
     fetchData()
-  }, [totalValueLocked])
+  }, [fetchData, totalValueLocked])
 
   return (
     <AutoRow justify="center" gap="1rem" style={{ marginBottom: isMobile ? '.5rem' : '2rem' }}>
