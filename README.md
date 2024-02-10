@@ -1,4 +1,17 @@
-# InterCrone Frontend
+# ISwap Interface
+
+An open source interface for ISwap -- a protocol for decentralized exchange of BSC tokens.
+
+- Website: [InterCroneswap.com](https://intercroneswap.com)
+- Interface: [bsc.intercroneswap](https://bsc.intercroneswap.com)
+- Docs: [ISwap/docs/](https://docs.intercroneswap.finance)
+- Email: [office@intercroneswap.com](mailto:office@intercroneswap.com)
+
+- X: [X/](https://twitter.com/IntercroneWorld)
+- IG: [instagram.com/intercrone/](https://www.instagram.com/intercrone)
+- FB: [facebook.com/InterCrone/](https://www.facebook.com/InterCrone)
+- YT: [youtube.com/c/InterCroneWorld/](https://www.youtube.com/c/InterCroneWorld)
+- TG: [t.me/intercroneworld/](https://t.me/intercroneworld)
 
 > Install dependencies using **yarn**
 
