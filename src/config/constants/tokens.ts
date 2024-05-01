@@ -71,6 +71,14 @@ export const mainnetTokens = defineTokens({
     'Crypto Hunter Trading',
     'https://cryptohuntertrading.io/',
   ),
+  wput: new Token(
+    MAINNET,
+    '0xe63913443cc00f7AbbC4506AeB74b3Bcc3fcbbA9',
+    8,
+    'wPUT',
+    'wPUTinCoin',
+    'https://putincoin.org/',
+  ),
   plz: new Token(MAINNET, '0xb69016AFdED339c99829AC1340b050E04C08E722', 8, 'PLZ', 'Plaentz'),
   cake: new Token(
     MAINNET,

@@ -114,6 +114,14 @@
       "logoURI": "https://gateway.btfs.io/btfs/QmVan7NushVi7FkJxYnenCQM9hdNAhawKMXqsK3YK6kSPK?filename=chtlogo.png"
     },
     {
+      "name": "wPUTinCoin",
+      "symbol": "wPUT",
+      "address": "0xe63913443cc00f7AbbC4506AeB74b3Bcc3fcbbA9",
+      "chainId": 56,
+      "decimals": 8,
+      "logoURI": "https://raw.githubusercontent.com/InterCroneworldOrg/logo/main/PUT.png"
+    },
+    {
       "name": "Avalance",
       "symbol": "AVAX",
       "address": "0x1CE0c2827e2eF14D5C4f29a091d735A204794041",
