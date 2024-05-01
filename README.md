@@ -23,7 +23,7 @@ How to start
 </summary>
 
 ```sh
-nvm use 16.02.2
+nvm use 16.20.2
 npm install
 ```
 
